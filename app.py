@@ -4,7 +4,7 @@ import openpyxl
 from flask_babel import Babel, _
 
 app = Flask(__name__)
-app.secret_key = 'fasz'
+app.secret_key = 'visszhang'
 EXCEL_FILE_PATH = r'D:\visszhang\vegleges\EREDMENYEK.xlsx'
 
 # Konfiguráljuk a Babelt
